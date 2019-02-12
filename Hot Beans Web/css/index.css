@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Berlin Sans FB;
+    src: url("./Fonts/BerlinSansFB");
+}
+
+@font-face {
+    font-family: Gills Sans MT
+}
+
+.header {
+    position: relative;
+    left: 151px;
+    right: 0px;
+    top: 30px;
+    height: 50px;
+}
+
+body {
+    background-color: #04c4ff;
+    
+    overflow: hidden;
+}
+
+.section1 {
+    position: relative;
+    left: 151px; 
+    right: 0px;
+    margin-top: 100px;
+    color: white;
+    display: inline-block;
+}
+
+.section1 h1 {
+    font-family: BerlinSansFB, sans-serif;
+    font-size: 41px;
+}
+
+.section1 p {
+    width: 400px;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 18px;
+}
+
+.section1 img {
+    position: absolute;
+    right: 151px;
+
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 20px;
+}
+
+.nav {
+    position: absolute;
+    top: 30px;
+    right: 151px;
+    margin-top: -30px;
+    margin-right: 151px;
+}
