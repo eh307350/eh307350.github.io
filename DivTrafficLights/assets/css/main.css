@@ -2,22 +2,41 @@
     background-color: #DEDEDE;
     width: 450px;
     height: 595px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 50px;
 }
 
 .red {
     background-color: red;
     width: 150px;
     height: 150px;
+    margin: 35px auto;
+    border: 1px solid black;
+    border-radius: 150px;
 }
 
 .yellow {
     background-color: yellow;
     width: 150px;
     height: 150px;
+    margin: 35px auto;
+    border: 1px solid black;
+    border-radius: 150px;
 }
 
 .green {
     background-color: greenyellow;
     width: 150px;
     height: 150px;
+    margin: 35px auto;
+    border: 1px solid black;
+    border-radius: 150px;
+}
+
+.pole {
+    background-color: black;
+    width: 100px;
+    height: 350px;
+    margin: auto;
 }

@@ -7,14 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
 </head>
-<body>
+<body onload="loadTimer()">
     <div class="container">
-        <div class="red">
+        <div class="red" id="r">
         </div>
-        <div class="yellow">
+        <div class="yellow" id="y">
         </div>
-        <div class="green"></div>
+        <div class="green" id="g"></div>
         </div>
     </div>
+    <div class="pole">
+    </div>
 </body>
+
+<script>
+    function loadTimer() {
+        document.getElementById("r").style.backgroundColor = "red";
+        document.getElementById("y").style.backgroundColor = "black";
+        document.getElementById("g").style.backgroundColor = "black";
+        setTimeout(() => {
+            document.getElementById("r").style.backgroundColor = "black";
+            document.getElementById("y").style.backgroundColor = "yellow";
+        }, 3000);
+        setTimeout(() => {
+            document.getElementById("y").style.backgroundColor = "black";
+            document.getElementById("g").style.backgroundColor = "yellow";
+        }, 3000);
+        
+    }
+</script>
+
 </html>
