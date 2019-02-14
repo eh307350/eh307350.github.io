@@ -26,14 +26,20 @@
         document.getElementById("y").style.backgroundColor = "black";
         document.getElementById("g").style.backgroundColor = "black";
         setTimeout(() => {
-            document.getElementById("r").style.backgroundColor = "black";
-            document.getElementById("y").style.backgroundColor = "yellow";
-        }, 3000);
-        setTimeout(() => {
-            document.getElementById("y").style.backgroundColor = "black";
-            document.getElementById("g").style.backgroundColor = "yellow";
+            
         }, 3000);
         
+        document.getElementById("r").style.backgroundColor = "black";
+        document.getElementById("y").style.backgroundColor = "yellow";
+        loadGreen();
+    }
+
+    function loadGreen() {
+        setTimeout(() => {
+            document.getElementById("y").style.backgroundColor = "black";
+            document.getElementById("g").style.backgroundColor = "greenyellow";
+        }, 3000);
+        loadTimer()
     }
 </script>
 
