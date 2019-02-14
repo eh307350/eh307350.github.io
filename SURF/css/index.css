@@ -11,6 +11,16 @@
     src: url("./../Assets/Fonts/BRLNSR.TTF") format("truetype");
 }
 
+@font-face {
+    font-family: "Gothic";
+    src: url("./../Assets/Fonts/GOTHIC.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "hand";
+    src: url("./../Assets/Fonts/BRADHITC.TTF") format("truetype");
+}
+
 
 .header {
     position: absolute;
@@ -28,6 +38,7 @@
     font-size: 42px;
     margin-left: 45px;
     float: left;
+    font-weight: 10;
 }
 
 .hero {
@@ -38,4 +49,72 @@
     width: 100%;
     height: 100%;
     background-image: url(./../Assets/Images/Hero/slide.png);
+    margin:auto;
+}
+
+.LocationPicker {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 35px;
+    font-family: 'Berlin Sans FB', sans-serif;
+    font-weight: 10;
+    font-size: 25px;
+}
+
+.nav {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.nav ul {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: 'Gothic', sans-serif;
+}
+
+.nav li img {
+    position: relative;
+    height: 31px;
+    width: 31px;
+    margin-right: 20px;
+}
+
+.nav button {
+    position: relative;
+    height: 53px;
+    width: 161px;
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.text-area {
+    position: relative;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: 64px;
+}
+
+.text-area h1 {
+    font-size: 70px;
+    color: white;
+    font-family: 'hand', sans-serif;
+}
+
+.text-area p {
+    margin-top: -25px;
+    font-family: 'Gothic', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 469px;
+    height: auto;
 }
