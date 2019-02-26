@@ -4,7 +4,6 @@
 
 /* Import Required Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
 @font-face {
     font-family: "Berlin Sans FB";
@@ -34,7 +33,7 @@
 }
 
 .title {
-    font-family: 'Berlin Sans FB', sans-serif;
+    font-family: 'Berlin Sans FB';
     font-size: 42px;
     margin-left: 45px;
     float: left;
@@ -56,7 +55,7 @@
     display: inline-block;
     margin-left: 20px;
     margin-top: 35px;
-    font-family: 'Berlin Sans FB', sans-serif;
+    font-family: 'Berlin Sans FB';
     font-weight: 10;
     font-size: 25px;
 }
@@ -76,7 +75,7 @@
     display: inline-block;
     margin-right: 40px;
     font-size: 20px;
-    font-family: 'Gothic', sans-serif;
+    font-family: 'Gothic';
 }
 
 .nav li img {
@@ -107,12 +106,12 @@
 .text-area h1 {
     font-size: 70px;
     color: white;
-    font-family: 'hand', sans-serif;
+    font-family: 'hand';
 }
 
 .text-area p {
     margin-top: -25px;
-    font-family: 'Gothic', sans-serif;
+    font-family: 'Gothic';
     font-size: 20px;
     color: white;
     width: 469px;
