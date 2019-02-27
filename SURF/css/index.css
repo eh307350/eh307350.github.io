@@ -22,28 +22,24 @@
 
 
 .header {
-    position: absolute;
-    top: -10px;
+    position: sticky;
+    top: 0px;
     left: 0px;
     right: 0px;
     height: 50px;
     z-index: 99;
-    color: white;
-    display: inline-block;
+    color: black;
 }
 
 .title {
     font-family: 'Berlin Sans FB';
     font-size: 42px;
-    margin-left: 45px;
-    float: left;
     font-weight: 10;
 }
 
 .LocationPicker {
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 35px;
+    margin-top: 10px;
     font-family: 'Berlin Sans FB';
     font-size: 25px;
 }
